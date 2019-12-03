@@ -8,7 +8,7 @@ A simple patch to add NukeKey feature to cryptsetup 2:2.1.0 / 2:2.2.0
 Don't forget to change version number...2.1.0 or 2.2.0
 
 	git clone  https://github.com/spai-phoenix/cryptsetup-nuke
-	cd cryptsetup-nuke
+	cd cryptsetup-<2.1.0>
 	patch -p1 < ../cryptsetup-nuke/cryptsetup-<2.1.0>.patch
 
 ## Usage examples
