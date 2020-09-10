@@ -1,6 +1,6 @@
  ## cryptsetup-nuke
 
-A simple patch to add NukeKey feature to cryptsetup 2:2.1.0 / 2:2.2.0
+A simple patch to add NukeKey feature to cryptsetup 2:2.1.0 / 2:2.3.4
 
 
 ## Installation
@@ -42,4 +42,6 @@ To restore the header, use the following command
 
 	 openssl aes-256-cbc -d -a -in <file>.enc -out <file>
 	 cryptsetup luksHeaderRestore /dev/<sda5> --header-backup-file <file>
+
+Tested from version 2.1.0 to 2.3.4
 
