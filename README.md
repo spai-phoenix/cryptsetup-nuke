@@ -31,7 +31,7 @@ To check key slots after nuking, start bootable usb and use the following comman
 
 	#return Key Slot 0: DISABLED
 	#return Key Slot 1: DISABLED
-	#retrun Key Slot 2: DISABLED
+	#return Key Slot 2: DISABLED
 	#return Key Slot 3: DISABLED
 	#return Key Slot 4: DISABLED
 	#return Key Slot 5: DISABLED
